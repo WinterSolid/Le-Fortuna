@@ -33,14 +33,10 @@ class ViewController: UIViewController {
     " Outlook is bleak",
     " Very doubtful",
      ]
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 
     @IBAction func pressMeButtonPressed(_ sender: UIButton) {
         fortuneTextView.text = Phrases.randomElement()
-        print("Button Tapped")
     }
-    
 }
+
 
